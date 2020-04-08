@@ -1,0 +1,64 @@
+h1 {
+    color: white;
+    font-family:sans-serif;
+    font-size: 18pt;
+ }
+
+ h2 {
+    color: whitesmoke;
+    font-family:sans-serif;
+    font-size: 18pt;
+
+ }
+
+
+
+ a {
+    color: rgb(168, 212, 168);
+    font-family:sans-serif;
+    font-size: 13p;
+
+ }
+
+ body {
+    background: darkslategray;
+    width: 80;
+    margin: 100px;
+ }
+
+ p {
+    color: darkgray;
+    font-family:sans-serif;
+    font-size: 12pt;
+
+ }
+
+ header {
+    grid-column: 1/13;
+    grid-row: 1;
+
+ }
+
+ section {
+    float: left;
+    
+ }
+
+ aside {
+    float: right;
+      
+
+ }
+ #container {
+    display: grid;
+ }
+
+ .wrapper {
+    display: grid;
+    grid-template-columns: 600px 600px;
+
+    }
+
+ .round {
+    border-radius: 50%;
+ }
